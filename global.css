@@ -1,0 +1,61 @@
+:root {
+  --very-green: rgb(110, 231, 183);
+  --very-black: #101010;
+
+  --font-primary: 'Nova Mono';
+  --font-secondary: 'Space Mono';
+}
+
+::selection {
+  background-color: var(--very-green);
+  color: var(--very-black);
+}
+
+@font-face {
+  font-family: 'Nova Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/nova-mono-v13-latin-regular.woff2') format('woff2'),
+    url('/fonts/nova-mono-v13-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/space-mono-v6-latin-regular.woff2') format('woff2'),
+    url('/fonts/space-mono-v6-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('/fonts/space-mono-v6-latin-700.woff2') format('woff2'),
+    url('/fonts/space-mono-v6-latin-700.woff') format('woff');
+}
+
+body {
+  background-color: var(--very-black);
+  font-family: var(--font-primary);
+}
+
+p a,
+li a {
+  color: var(--very-green);
+}
+
+p a:hover,
+li a:hover {
+  text-decoration: underline;
+}
+
+._font-secondary {
+  font-family: var(--font-secondary);
+}
+
+._very-shadow {
+  box-shadow: 8px 8px 0px var(--very-green);
+}
