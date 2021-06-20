@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function DNSFragment() {
   return (
@@ -37,7 +36,13 @@ export default function DNSFragment() {
         that promises you an easy $31,337,000 money.
       </p>
       <div className='border-2 border-green-300 rounded-sm py-3 px-3'>
-        <Image src='/img/jw2jfiq9.png' width='1244' height='478' />
+        <img
+          loading='lazy'
+          alt='edgyDNS diagram'
+          src='/img/jw2jfiq9.png'
+          width='1244'
+          height='478'
+        />
       </div>
       <p className='_font-secondary leading-relaxed my-5'>
         Anyways, edgyDNS will protect your from that kind of threats done at the

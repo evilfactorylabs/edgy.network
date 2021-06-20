@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function ProxyFragment() {
   return (
@@ -22,7 +21,13 @@ export default function ProxyFragment() {
         barrier.
       </p>
       <div className='border-2 border-green-300 rounded-sm py-3 px-3'>
-        <Image src='/img/7zsg9hk1.png' width='1244' height='478' />
+        <img
+          loading='lazy'
+          alt='edgyPROXY diagram'
+          src='/img/7zsg9hk1.png'
+          width='1244'
+          height='478'
+        />
       </div>
       <p className='_font-secondary leading-relaxed my-5'>
         Web Proxy don't anonymize your identity, but they can help you hide it.
