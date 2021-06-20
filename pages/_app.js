@@ -10,6 +10,13 @@ export default function App({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
+      <script
+        async
+        defer
+        data-website-id='153a4ca8-8136-474c-a28a-1c3f84aac49f'
+        data-do-not-track='true'
+        src='https://u.edgy.network/umami.js'
+      ></script>
     </main>
   )
 }
