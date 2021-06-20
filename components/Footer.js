@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className='text-white pt-5 pb-7 leading-relaxed lg:w-8/12 border-t-2 border-green-300'>
+    <footer className='text-white pt-5 pb-7 leading-relaxed lg:w-8/12 border-t-2 border-transparent'>
       <p className='leading-relaxed text-xs tracking-tighter'>
         <a href='/'>edgy.network</a> is part of{' '}
         <a href='https://evilfactorylabs.org'>evilfactorylabs</a>{' '}
