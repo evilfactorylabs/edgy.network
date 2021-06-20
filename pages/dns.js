@@ -99,7 +99,7 @@ export default function DNSPage() {
         </h3>
         <p className='_font-secondary text-white leading-relaxed mb-3'>
           Segala berkas terkait konfigurasi & filters berada di repository{' '}
-          <a href='https://github.com/evilfactorylabs/gatekepeer'>
+          <a href='https://github.com/evilfactorylabs/gatekeeper'>
             evilfactorylabs/gatekeeper
           </a>{' '}
           yang berada di GitHub.
