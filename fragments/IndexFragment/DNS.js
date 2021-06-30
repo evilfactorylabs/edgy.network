@@ -79,12 +79,6 @@ export default function DNSFragment() {
           No logs are ever written to disk, to give you even more privacy
         </li>
         <li className='mb-2 leading-relaxed'>
-          Anonymized in-memory client IP log with 24h retention. If your IP
-          address is 143.198.198.198, it will be written as 143.198.0.0 and only
-          live in runtime memory for 24h. This is an AdGuardHome limitation and
-          we can't turn it off completely yet.
-        </li>
-        <li className='mb-2 leading-relaxed'>
           Block requests to advertising networks, trackers, phishing sites, etc
           etc, to gives you more protection
         </li>
