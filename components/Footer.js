@@ -4,7 +4,7 @@ export default function Footer() {
       <p className='leading-relaxed text-xs tracking-tighter'>
         <a href='/'>edgy.network</a> is part of{' '}
         <a href='https://evilfactorylabs.org'>evilfactorylabs</a>{' '}
-        <a href='https://twitter.com/edgytechnology'>R&D</a> to make the
+        <a href='https://github.com/orgs/evilfactorylabs/teams/research'>R&D</a> to make the
         internet less sucks. This website does not use cookies nor contain any
         third-party resources. Web analytics is done by self-hosted{' '}
         <a href='https://umami.is'>Umami</a> instances and{' '}

@@ -20,8 +20,8 @@ export default function ProxyPage() {
           <li className='mb-3'>
             IPv6
             <ol className='list-disc pl-3 pt-3 text-pink-300'>
-              <li>2001:470:ed00::/48</li>
-              <li>2001:470:36:30d::/64</li>
+              <li>2001:470:ed00::1 (jkt01.edgy.network, native)</li>
+              <li>205:31e6:3a7d:54c9:7adc:601f:ac5b:8146 (peer01.yggdr.id, yggdrasil)</li>
             </ol>
           </li>
           <li className='mb-3'>
@@ -30,10 +30,10 @@ export default function ProxyPage() {
               <li>
                 <span className='text-pink-300'>6565</span> (SOCKS5)
               </li>
-              <li>
-                <span className='text-pink-300'>6969</span> (SOCKS5 over QUIC,
+              <li className="opacity-60">
+                <span className='text-pink-300 opacity-60'>6969</span> (SOCKS5 over QUIC,
                 membutuhkan <a href='https://github.com/ginuerzh/gost'>gost</a>{' '}
-                sebagai klien)
+                sebagai klien, under maintenance)
               </li>
             </ol>
           </li>

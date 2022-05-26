@@ -20,12 +20,18 @@ export default function DNSPage() {
           <li className='mb-3'>
             Plain DNS via IPv6:
             <ol className='list-disc pl-3 pt-3 text-pink-300'>
-              <li>2001:470:ecbf::53</li>
-              <li>2001:470:ecbf::666</li>
+              <li>2001:470:ed00::53</li>
+              <li>2001:470:ed00::666</li>
             </ol>
           </li>
-          <li className='mb-3 truncate'>
-            DNSCrypt (v1)
+          <li className='mb-3'>
+            Plain DNS via <a href="https://yggdrasil-network.github.io" target="_blank" rel="noopener noreferer">yggdrasil</a>:
+            <ol className='list-disc pl-3 pt-3 text-pink-300'>
+              <li>205:31e6:3a7d:54c9:7adc:601f:ac5b:8146 (peer01.yggdr.id)</li>
+            </ol>
+          </li>
+          <li className='mb-3 truncate opacity-60'>
+            DNSCrypt (v1, under maintenance)
             <ol className='pl-3 pt-3'>
               <li>
                 provider-name:{' '}
@@ -45,8 +51,8 @@ export default function DNSPage() {
               </li>
             </ol>
           </li>
-          <li className='mb-3 truncate'>
-            DNSCrypt (v2)
+          <li className='mb-3 truncate opacity-60'>
+            DNSCrypt (v2, under maintenance)
             <span className='pl-2 text-pink-300'>
               <a href='sdns://AQMAAAAAAAAAGFsyMDAxOjQ3MDplY2JmOjo1M106MTQ0MyDHDi09554mnycvKhelO7qabNTy1e9F5paB7kFYlxNKyyAyLmRuc2NyeXB0LWNlcnQuZG5zLmVkZ3kubmV0d29yaw'>
                 sdns://AQMAAAAAAAAAGFsyMDAxOjQ3MDplY2JmOjo1M106MTQ0MyDHDi09554mnycvKhelO7qabNTy1e9F5paB7kFYlxNKyyAyLmRuc2NyeXB0LWNlcnQuZG5zLmVkZ3kubmV0d29yaw
@@ -56,19 +62,19 @@ export default function DNSPage() {
           <li className='mb-3'>
             DNS-Over-HTTPS (DoH)
             <span className='pl-2 text-pink-300'>
-              https://dns.edgy.network/dns-query
+              https://edgy-dns.com/dns-query
             </span>
           </li>
           <li className='mb-3'>
             DNS-Over-TLS (DoT)
             <span className='pl-2 text-pink-300'>
-              tls://dns.edgy.network:853
+              tls://edgy-dns.com:853
             </span>
           </li>
-          <li className='mb-3'>
-            DNS-Over-QUIC (DoQ)
+          <li className='mb-3 opacity-60'>
+            DNS-Over-QUIC (DoQ, under maintenance)
             <span className='pl-2 text-pink-300'>
-              quic://dns.edgy.network:784
+              quic://edgy-dns.com:784
             </span>
           </li>
         </ul>

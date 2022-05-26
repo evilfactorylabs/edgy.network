@@ -5,7 +5,7 @@ export default function AboutFragment() {
     <div className='text-white'>
       <h3 className='text-green-300 text-4xl mb-3 tracking-tighter'>About</h3>
       <p className='_font-secondary leading-relaxed mb-5'>
-        Hi, I'm <a href='https://faultable.dev'>Fariz</a>, the person behind
+        Hi, I'm <a href='https://rizaldy.club'>Rizaldy</a>, the person behind
         this service. Everyday I use my own service on all my devices to protect
         my internet activities, as I advertised it. Since my services doesn't
         log any activity at all, I'm using{' '}

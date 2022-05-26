@@ -61,8 +61,8 @@ export default function DNSFragment() {
           Native IPv6,{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc8484'>DoH</a>,{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc7858'>DoT</a>,{' '}
-          <a href='https://datatracker.ietf.org/doc/html/rfc9000'>DoQ</a>,{' '}
-          <a href='https://www.dnscrypt.org/'>DNSCrypt</a> support to give you
+          <a className='opacity-60' href='https://datatracker.ietf.org/doc/html/rfc9000'>DoQ (under maintenance)</a>,{' '}
+          <a className='opacity-60' href='https://www.dnscrypt.org/'>DNSCrypt (under maintenance)</a> support to give you
           more choices
         </li>
         <li className='mb-2 leading-relaxed'>
@@ -89,7 +89,7 @@ export default function DNSFragment() {
         </li>
         <li className='mb-2 leading-relaxed'>
           Powered by Open Source technology from{' '}
-          <a href='https://github.com/AdguardTeam/AdGuardHome'>AdGuardHome</a>,{' '}
+          <a href='https://github.com/0xERR0R/blocky'>blocky</a>,{' '}
           <a href='https://github.com/NLnetLabs/unbound'>Unbound</a>, to{' '}
           <a href='https://github.com/PowerDNS/pdns'>PowerDNS</a> — very no
           proprietary software!
