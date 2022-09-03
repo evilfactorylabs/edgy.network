@@ -34,20 +34,20 @@ export default function ProxyFragment() {
         As for now we supports:
       </p>
       <ul className='list-disc px-4 _font-secondary'>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           <a href='https://shadowsocks.org/en/index.html'>ShadowSocks</a> proxy
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           <a href='https://docs.ginuerzh.xyz/gost/en/socks/'>
             SOCKS5 over QUIC
           </a>{' '}
           proxy, powered by GOST
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Experimental SOCKS5 proxy to the{' '}
           <a href='https://www.torproject.org/'>TOR</a> network
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Experimental HTTPS proxy with built-in content blockers, powered by{' '}
           <a href='https://www.privoxy.org/'>Privoxy</a>
         </li>
