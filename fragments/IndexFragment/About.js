@@ -28,13 +28,13 @@ export default function AboutFragment() {
         approach is:
       </p>
       <ul className='list-disc px-4 _font-secondary'>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           No logs are ever written to disk (even to syslog and /dev/stdout)
           because they all belong to /dev/null and they deserve it. When
           something goes wrong, I think the solution is to turn it off and on
           again?
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           No native IPv4 support. That's kinda sucks, but I kinda trust in{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc4941'>RFC 4941</a>{' '}
           on "Privacy Extensions for Stateless Address Autoconfiguration in
@@ -42,7 +42,7 @@ export default function AboutFragment() {
           (SLAAC) and will look further into what IPv6 can help in protecting
           the identity of internet users.
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           No monitoring. Well, actually not really. I use{' '}
           <a href='https://linux.die.net/man/1/vnstat'>vnstat(1)</a> to monitor
           network bandwidth usage and{' '}
