@@ -57,7 +57,7 @@ export default function DNSFragment() {
         And also, with some goodies:
       </p>
       <ul className='list-disc px-4 _font-secondary'>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Native IPv6,{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc8484'>DoH</a>,{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc7858'>DoT</a>,{' '}
@@ -65,7 +65,7 @@ export default function DNSFragment() {
           <a className='opacity-60' href='https://www.dnscrypt.org/'>DNSCrypt (under maintenance)</a> support to give you
           more choices
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           No{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc7871'>
             EDNS Client Subnet (ECS)
