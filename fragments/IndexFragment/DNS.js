@@ -75,26 +75,26 @@ export default function DNSFragment() {
             more privacy
           </a>
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           No logs are ever written to disk, to give you even more privacy
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Block requests to advertising networks, trackers, phishing sites, etc
           etc, to gives you more protection
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Queries are secured and validated with{' '}
           <a href='https://datatracker.ietf.org/doc/html/rfc4033'>DNSSEC</a>, to
           give you even more protection
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Powered by Open Source technology from{' '}
           <a href='https://github.com/0xERR0R/blocky'>blocky</a>,{' '}
           <a href='https://github.com/NLnetLabs/unbound'>Unbound</a>, to{' '}
           <a href='https://github.com/PowerDNS/pdns'>PowerDNS</a> — very no
           proprietary software!
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Experimental support for community-powered alternative{' '}
           <a href='https://en.wikipedia.org/wiki/Root_name_server'>
             Root Servers{' '}
@@ -102,14 +102,14 @@ export default function DNSFragment() {
           from <a href='https://www.opennic.org/'>OpenNIC</a> to{' '}
           <a href='https://handshake.org/'>Handshake</a> — very edgy!
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Non-cached domains are queried{' '}
           <a href='https://www.cloudflare.com/learning/dns/what-is-recursive-dns/'>
             recursively
           </a>{' '}
           by our own upstream — very independent!
         </li>
-        <li className='mb-2 leading-relaxed'>
+        <li className='mb-3 leading-relaxed'>
           Servers hosted in Indonesia via the{' '}
           <a href='https://idcloudhost.com/about-company/'>IDCloudHost</a>{' '}
           network — very less latency!
