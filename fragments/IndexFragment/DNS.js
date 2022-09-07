@@ -111,8 +111,8 @@ export default function DNSFragment() {
         </li>
         <li className='mb-3 leading-relaxed'>
           Servers hosted in Indonesia via the{' '}
-          <a href='https://idcloudhost.com/about-company/'>IDCloudHost</a>{' '}
-          network — very less latency!
+          <a href='https://aws.amazon.com/about-aws/global-infrastructure/'>Amazon Web Services</a>{' '}
+          (ap-southeast-3) network — very less latency!
         </li>
       </ul>
       <p className='_font-secondary leading-relaxed my-5'>
