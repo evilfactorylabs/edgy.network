@@ -19,3 +19,11 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+# Created by https://www.toptal.com/developers/gitignore/api/direnv
+# Edit at https://www.toptal.com/developers/gitignore?templates=direnv
+
+### direnv ###
+.direnv
+.envrc
+
+# End of https://www.toptal.com/developers/gitignore/api/direnv
