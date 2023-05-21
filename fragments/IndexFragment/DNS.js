@@ -58,7 +58,7 @@ export default function DNSFragment() {
       </p>
       <ul className="list-disc px-4 _font-secondary">
         <li className="mb-3 leading-relaxed">
-          Native IPv6,{" "}
+          Only secure transport protocols from{" "}
           <a href="https://datatracker.ietf.org/doc/html/rfc8484">DoH</a>,{" "}
           <a href="https://datatracker.ietf.org/doc/html/rfc7858">DoT</a>,{" "}
           <a
@@ -66,12 +66,8 @@ export default function DNSFragment() {
             href="https://datatracker.ietf.org/doc/html/rfc9000"
           >
             DoQ (under maintenance)
-          </a>
-          ,{" "}
-          <a className="opacity-60" href="https://www.dnscrypt.org/">
-            DNSCrypt (under maintenance)
           </a>{" "}
-          support to give you more choices
+          support to give you more choices securely.
         </li>
         <li className="mb-3 leading-relaxed">
           No{" "}
