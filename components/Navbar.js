@@ -35,6 +35,16 @@ export default function Navbar() {
               proxy
             </Link>
           </li>
+          <li className="inline-block px-4">
+            <Link
+              href="/derp"
+              className={`${
+                isActive("derp") ? "text-green-300" : "text-white"
+              } hover:text-green-300 hover:no-underline`}
+            >
+              derp
+            </Link>
+          </li>
           <li className="inline-block px-4 hidden">
             <Link
               href="/test"
