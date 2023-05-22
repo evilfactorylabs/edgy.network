@@ -124,6 +124,13 @@ Report:
           </a>{" "}
           yang berada di GitHub.
         </p>
+        <h3 className="text-white text-left text-2xl mt-7 text-green-300">
+          Sangkalan
+        </h3>
+        <p className="_font-secondary text-white leading-relaxed mb-3">
+          edgyDERP tidak terkait ataupun berafiliasi dengan Tailscale. Tailscale
+          adalah merek dagang terdaftar dari Tailscale Inc.
+        </p>
       </div>
     </main>
   );
