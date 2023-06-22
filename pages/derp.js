@@ -53,7 +53,7 @@ export default function ProxyPage() {
         </h3>
         <p className="_font-secondary text-white leading-relaxed">
           Jalankan <code className="text-green-300">tailscale netcheck</code>{" "}
-          (GNU/Linux) atau{" "}
+          (GNU/Linux dan Windows) atau{" "}
           <code className="text-green-300">
             /Applications/Tailscale.app/Contents/MacOS/Tailscale netcheck
           </code>{" "}
