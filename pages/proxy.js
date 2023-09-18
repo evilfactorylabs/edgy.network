@@ -19,19 +19,18 @@ export default function ProxyPage() {
         <ul className='text-white pt-5 text-left px-10 list-disc'>
           <li className='mb-3'>
             IPv6
-            <ol className='list-disc pl-3 pt-3 text-pink-300'>
-              <li>2001:470:ed00::1 (jkt01.edgy.network, native)</li>
-              <li>205:31e6:3a7d:54c9:7adc:601f:ac5b:8146 (peer01.yggdr.id, yggdrasil)</li>
+            <ol className='list-disc pl-3 pt-3 text-pink-300 opacity-60'>
+              <li>2001:470:ed00::1 (under maintenance)</li>
             </ol>
           </li>
           <li className='mb-3'>
             Port
             <ol className='list-disc pl-3 pt-3'>
-              <li>
-                <span className='text-pink-300'>6565</span> (SOCKS5)
+              <li className="opacity-60">
+                <span className='text-pink-300'>6565</span> (SOCKS5, under maintenance)
               </li>
               <li className="opacity-60">
-                <span className='text-pink-300 opacity-60'>6969</span> (SOCKS5 over QUIC,
+                <span className='text-pink-300'>6969</span> (SOCKS5 over QUIC,
                 membutuhkan <a href='https://github.com/ginuerzh/gost'>gost</a>{' '}
                 sebagai klien, under maintenance)
               </li>
